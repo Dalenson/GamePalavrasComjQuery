@@ -1,0 +1,33 @@
+.digitacao{
+	font-size: 20px;
+	height: 150px;
+}
+
+.digitacao-desativado{
+	background-color: lightgray;
+}
+
+.icones{
+	vertical-align: middle;
+}
+
+.campo-certo{
+	border:5px solid green;
+}
+
+.campo-errado{
+	border: 5px solid red;
+}
+
+.marcador{
+	background-color: white;
+}
+
+.correct{
+	background-color: green;
+}
+
+.incorrect{
+	background-color: red;
+}
+

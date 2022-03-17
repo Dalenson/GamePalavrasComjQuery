@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<title>JQuery</title>
+</head>
+
+<body>
+	<div class="container">
+		<h1 class="center">Game</h1>
+
+		<p id="frase">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+		<textarea class="digitacao" rows="8" cols="40"></textarea>
+
+		<ul class="center">
+			<li>
+				<i class="small material-icons icones">description</i>
+				<span id="tamanho-caracteres">0</span> Caracteres
+			</li>
+			<li>
+				<i class="small material-icons icones">sort_by_alpha</i>
+				<span id="contador-palavras">0</span> Palavras
+			</li>
+			<li>
+				<i class="small material-icons icones">query_builder</i>
+				<span id="contador-tempo">20</span> Segundos
+			</li>
+		</ul>
+
+		<div class="botoes">
+			<a class="btn-floating btn-large waves-effect waves-light red" id="reiniciar"><i class="material-icons">restore</i></a>
+		</div>
+	</div>
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="function.js"></script>
+	 
+</body>
+</html>
