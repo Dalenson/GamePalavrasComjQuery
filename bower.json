@@ -1,0 +1,17 @@
+{
+    "name": "Jquery",
+    "description": "",
+    "main": "server.js",
+    "authors": [
+      "dalencon.colares <dal.colares@hotmail.com>"
+    ],
+    "license": "ISC",
+    "homepage": "",
+    "ignore": [
+      "**/.*",
+      "test",
+      "tests"
+    ],
+    "dependencies": {
+    }
+  }
